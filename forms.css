@@ -1,0 +1,24 @@
+#h2Title{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
+/* universal selector */
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* using class selector */
+.mandatory_feilds{
+    font-weight:bold;
+}
+.Container{
+    background-color: lightblue;
+}
+.header{
+    height: 300px;
+background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.EZBI_gZlb5T2hTRnlIUinAHaCY&pid=Api&P=0&w=656&h=211");
+}
