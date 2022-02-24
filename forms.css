@@ -1,24 +1,77 @@
-#h2Title{
+/* Using ID selector in external css */
+/* #h2Title{
     font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
-    color: blue;
+    color: cadetblue;
+} */
+
+.title{
+    background-color: lightgrey;
+    border: 1px groove lightslategrey;
+    border-bottom: 5px dashed black;
+    border-radius: 5px;
+    border-color: cadetblue;
+    padding: 10px;
+    padding-left: 0;
+    margin: 20px;
+    margin-left: 0;
+    padding: 20px 10px 5px 30px;
+    margin: 20px 10px 5px 30px;
+    /* Top right bottom left */
+    margin: 30px 10px;
+    /* TopBottom LeftRight */
 }
-/* universal selector */
+
+/* Universal selector */
 *{
     font-family: 'Courier New', Courier, monospace;
 }
 
-
-/* using class selector */
-.mandatory_feilds{
-    font-weight:bold;
+/* Using Class Selector */
+.mandatory_fields{
+    font-weight: bold;
 }
-.Container{
+
+.container{
     background-color: lightblue;
 }
+
 .header{
-    height: 300px;
-background-size: cover;
+    height: 200px;
     background-repeat: no-repeat;
-    background-image: url("https://tse3.mm.bing.net/th?id=OIP.EZBI_gZlb5T2hTRnlIUinAHaCY&pid=Api&P=0&w=656&h=211");
+    background-size:cover;
+    background-image: url("https://media.istockphoto.com/photos/minimal-work-space-creative-flat-lay-photo-of-workspace-desk-top-view-picture-id1220573371?b=1&k=20&m=1220573371&s=170667a&w=0&h=dyT6F0wNP1NdDdvvTd95RVrR8qHwbEU8bqLxpDpSejw=");
+}
+
+
+/* Apply this query where size is between 600 to 1000 */
+/* Tablet Devices */
+@media screen and (min-width:601px) and (max-width:1000px) {
+    .title{
+        background-color:lightcoral;
+        font-size: 50px;
+    }
+
+    .header{
+        background-image: url("https://previews.123rf.com/images/undrey/undrey1408/undrey140800082/31120266-abstract-colorful-disegnare-a-mano-acquerello-acquerello-sfondo.jpg");
+    }
+
+    .container{
+        background-color: lightseagreen;
+        font-size: 30px;
+    }
+}
+
+/* Apply this query as long as max-width is 700. */
+/* Mobile */
+@media screen and (max-width:600px) {
+    .title{
+        background-color: lightblue;
+        font-size: 50px;
+    }
+
+    .container{
+        background-color: lightgray;
+        font-size: 30px;
+    }
 }
