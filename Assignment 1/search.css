@@ -44,7 +44,7 @@
 
 .filter-options {
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-    background-color: #ffffff;
+    background-color: #e2dfdf;
     padding-left: 30px;
     margin-bottom: 10px;
     min-width: 250px;
@@ -74,7 +74,7 @@
     line-height: 1.5;
     letter-spacing: normal;
     text-align: left;
-    color: #192f60;
+    color: #030c1f;
     margin-top: 30px;
 }
 
@@ -82,7 +82,7 @@
     width: 200px;
     height: 25px;
     border-radius: 5px;
-    border: solid 1px #8c96ab;
+    border: solid 1px #0d0d0e;
     margin-top: 10px;
 }
 
@@ -108,14 +108,14 @@
     line-height: 1.5;
     letter-spacing: normal;
     text-align: left;
-    color: #8c96ab;
+    color: #131414;
 }
 
 .Item {
     width: 100%;
     height: 220px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-    background-color: #ffffff;
+    background-color: #f8f2f7;
     margin-bottom: 15px;
 }
 
@@ -135,7 +135,7 @@
     line-height: 1.53;
     letter-spacing: normal;
     text-align: left;
-    color: #192f60;
+    color: #01050e;
 }
 
 .rest-location {
@@ -147,7 +147,7 @@
     line-height: 1.88;
     letter-spacing: normal;
     text-align: left;
-    color: #192f60;
+    color: #01050e;
 }
 
 .rest-address {
@@ -159,13 +159,13 @@
     line-height: 1.88;
     letter-spacing: normal;
     text-align: left;
-    color: #636f88;
+    color: #0a0a0a;
 }
 
 .Bakery {
     font-family: Poppins;
-    font-size: 16px;
-    font-weight: normal;
+    font-size: 17px;
+    font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.88;
@@ -209,29 +209,33 @@
 }
 
 .pagination a {
-    color: gray;
+    color: rgb(27, 1, 1);
     float: left;
     padding: 8px 16px;
     text-decoration: none;
-    border: solid 1px gray;
+    border: solid 1px rgb(98, 8, 243);
     border-radius: 15px;
     margin: 2px;
 }
 
 @media only screen and (max-width: 600px) {
+  
+ 
+    
     .Item {
-        width: 150%;
-        height: 200px;
+        width: 200%;
+        height: 220px;
         box-shadow: 0px 3px 6px #00000029;
         background-color: lightgoldenrodyellow;
         margin-bottom: 20px;
     }
     .filter-options {
+        font-size: 18px;
         box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
         background-color: lightcyan;
         padding-left: 30px;
         margin-bottom: 15px;
-        min-width: 450px;
+        min-width: 700px;
     }
     .big {
         display: block;
@@ -259,7 +263,7 @@
         letter-spacing: normal;
         text-align: left;
         color: #192f60;
-        padding-left: 35px;
+        padding-left: 3px;
     }
     .rest-location {
         font-family: Poppins;
@@ -271,7 +275,7 @@
         letter-spacing: normal;
         text-align: left;
         color: #192f60;
-        padding-left: 35px;
+        padding-left: 3px;
     }
     .rest-address {
         font-family: Poppins;
@@ -283,7 +287,7 @@
         letter-spacing: normal;
         text-align: left;
         color: #636f88;
-        padding-left: 35px;
+        padding-left: 3px;
     }
     .pagination {
         display: inline-block;
@@ -303,18 +307,17 @@
            height: 60px;
        }
        .body{
-           height: 50px;
-           width: 50px;
+           
+           height: 30px;
+           width: 30px;
            border-radius: 35px;
            margin-left: 30px;
        }
        .top{
-           left: 400px;
+           left: 100px;
            position: relative;
-           float:left;
-           margin-top: 10px;
-           padding-right: 30px;
-           padding-left: 50px;
+           margin-top: 7px;
+            padding-right:2px ;
        }
        .mainhead{
            font-size: 20px;
