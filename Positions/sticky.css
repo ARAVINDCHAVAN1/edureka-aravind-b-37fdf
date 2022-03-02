@@ -1,0 +1,36 @@
+
+
+.parent{
+    position: relative;
+     padding: 4%;
+ height: 600px;
+ background-color: coral;
+     border: 1px solid green;
+     /* create a flexible container which makes all items flexible */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 3000px;
+ }
+ .child{
+    
+     border: 1px solid red;
+     background-color: yellow;
+    height: 150px;
+     width: 150px;
+     font-weight: bold;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .hide{
+     /* display: none; */
+     /* visibility: hidden; */
+ }
+ 
+ .positions{
+     position: sticky;
+    top: 0px;
+    left: 0px;
+ }
