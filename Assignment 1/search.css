@@ -24,8 +24,14 @@
     padding-left: 50px;
 }
 .mainhead{
+    margin: 2%;
+    border: 1px solid black;
+    background-color: rgb(231, 28, 28);
+    height: 30px;
+    width: 200px;
+    font-weight: bold;
     font-size: 20px;
-    color: white;
+    color: black;
 }
 
 .heading {
