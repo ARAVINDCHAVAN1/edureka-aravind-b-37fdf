@@ -1,0 +1,89 @@
+.body{
+    background-color: rgb(247, 213, 213);
+   background-repeat: no-repeat;
+  }
+
+  .btn-1{
+   
+    margin-left: 70px;
+    width: 200px;
+  height: 100px;
+  font-size: 25px;
+  font-weight: bold;
+  color: darkblue;
+  background-color: gold;
+  border-radius: 50px;
+  border: none;
+    text-align: center;
+    box-shadow: inset 0 0 0 0 #faf5c4;
+    transition: ease-out 0.2s;
+    
+  }
+  .btn-1:hover{
+    box-shadow: inset 200px 0 0 0 #f80c20;
+    cursor: pointer;
+    color: #000;
+  }
+
+  .btn-2{
+    margin-left: 70px;
+    width: 200px;
+  height: 100px;
+  font-size: 25px;
+  font-weight: bold;
+  color: darkblue;
+  background-color: silver;
+  border-radius: 50px;
+  border: none;
+    text-align: center;
+    box-shadow: inset 0 0 0 0 #faf5c4;
+    transition: ease-out 0.2s;
+  }
+  .btn-2:hover{
+    box-shadow: inset 200px 0 0 0 #f80c20;
+    cursor: pointer;
+    color: #000;
+  }
+
+  .btn-3{
+    margin-left: 70px;
+    width: 200px;
+  height: 100px;
+  font-size: 25px;
+  font-weight: bold;
+  color: darkblue;
+  background-color: rgb(204, 155, 90);
+  border-radius: 50px;
+  border: none;
+    text-align: center;
+    box-shadow: inset 0 0 0 0 #faf5c4;
+    transition: ease-out 0.2s;
+  }
+  .btn-3:hover{
+    box-shadow: inset 200px 0 0 0 #f80c20;
+    cursor: pointer;
+    color: #000;
+  }
+ 
+  .select{
+    margin-left: 320px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-color: #000;
+    box-shadow: rgb(253, 250, 245);
+    padding: 5px 25px;
+    color: darkblue;
+   background-color: rgb(247, 246, 213);
+  padding-left: 20px;
+   text-align: center;
+ }
+
+.select:hover{
+  box-shadow: inset 300px 0 0 0 rgb(253, 176, 183) ;
+  cursor: pointer;
+  color: black;
+}
+
+
+}
